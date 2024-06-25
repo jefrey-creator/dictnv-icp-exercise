@@ -21,10 +21,10 @@ Route.post('/user/register', isAuth, UsersController.register);
 Route.post('/user/update', isAuth, UsersController.update);
 
 // EVENT
-Route.post('/event/create', isAuth, EventsController.create);
-Route.post('/event/update/:eventId', isAuth, EventsController.update);
-Route.get('/event/list', isAuth, EventsController.view_all_by_user);
-Route.get('/event/joined/list', isAuth, EventsController.view_all_joined_by_user);
+// Route.post('/event/create', isAuth, EventsController.create);
+// Route.post('/event/update/:eventId', isAuth, EventsController.update);
+// Route.get('/event/list', isAuth, EventsController.view_all_by_user);
+// Route.get('/event/joined/list', isAuth, EventsController.view_all_joined_by_user);
 
 // EVENT BY ID
 // Route.post('/event/:eventId/register', isAuth, GuestsController.register);
